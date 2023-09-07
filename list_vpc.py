@@ -1,6 +1,6 @@
 import boto3
 
-session = boto3.Session(profile_name='leveluptech')
+session = boto3.Session(profile_name='enter_user_profile_here')
 
 ec2 = session.client('ec2')
 
